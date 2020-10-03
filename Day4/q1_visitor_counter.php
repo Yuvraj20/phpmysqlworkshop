@@ -1,4 +1,4 @@
-<form action="q1.php" method='POST'>
+<form action="q1_visitor_counter.php" method='POST'>
 <h3>Enter Your Details</h3>
 Name of Student: <input type='text' name='name' ><br/><br>
 
