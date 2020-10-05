@@ -1,7 +1,7 @@
 <html>
 <head><b>Feedback</b></head>
 <body>
-<p>Please fill the feedback form as your feedback matters to us.</p>
+<p>Please fill the feedback form.</p>
 <form action = "q2_send_mail.php" method="POST">
     Name <input type="text"  name="name" style="margin-left:25px;" required><br><br>
     Mail Id<input type="email"  name="mail" style="margin-left:19px;" required><br><br>
@@ -19,13 +19,13 @@ if(@$_POST["submit"])
  echo "Thanks for giving feedback.";   
  $name = @$_POST["name"];
  $mailto = @$_POST["mail"];
- $adminmail= "yuviomac@gmail.com";
+ $adminmail= "";
  $feedback = @$_POST["feedback"];
  $subject = "Feedback";
  $msg = "Hey $name thanks for filling feedback. Here is what we got from you: \n";
  $message = $msg . $feedback;
  $message = wordwrap($message, 70);
- $headers = "From: yuviomac@gmail.com";
+ $headers = "From: ";
  $headers1 = "From: $mailto";
 
  $msg1 = "Here is what we got from $name ($mailto): \n";
