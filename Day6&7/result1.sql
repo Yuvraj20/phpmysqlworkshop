@@ -37,8 +37,7 @@ CREATE TABLE `adminlogin` (
 -- Dumping data for table `adminlogin`
 --
 
-INSERT INTO `adminlogin` (`id`, `email`, `password`) VALUES
-(1, 'yuviomac@gmail.com', 'Yuvraj2000');
+
 
 -- --------------------------------------------------------
 
